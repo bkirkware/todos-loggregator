@@ -10,9 +10,9 @@ spring:
                     destination: todos-container-metrics
 cf:
     api: api.run.pas.kirklab.io
-    username: corbs
-    password: changeme
+    username: bkirkland
+    password: user123
     organization: retro
-    space: arcade
-    domain: apps.retro.io
+    space: todo
+    domain: apps.pas.kirklab.io
     skipSslValidation: true
