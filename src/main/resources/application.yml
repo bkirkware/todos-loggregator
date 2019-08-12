@@ -1,0 +1,18 @@
+spring:
+    cloud:
+        stream:
+            bindings:
+                logEvents:
+                    destination: todos-logs
+                errorEvents:
+                    destination: todos-errors
+                containerMetricEvents:
+                    destination: todos-container-metrics
+cf:
+    api: api.run.pas.kirklab.io
+    username: corbs
+    password: changeme
+    organization: retro
+    space: arcade
+    domain: apps.retro.io
+    skipSslValidation: true
