@@ -14,8 +14,8 @@ spring:
 cf:
     api: api.run.pas.kirklab.io
     username: bkirkland
-    password: howdy
-    organization: retro
+    password: user123
+    organization: bkirkland
     space: todo
     domain: apps.pas.kirklab.io
     skipSslValidation: true

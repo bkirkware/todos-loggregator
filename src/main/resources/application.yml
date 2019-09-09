@@ -12,7 +12,7 @@ cf:
     api: api.run.pas.kirklab.io
     username: bkirkland
     password: user123
-    organization: retro
+    organization: bkirkland
     space: todo
     domain: apps.pas.kirklab.io
     skipSslValidation: true
