@@ -3,6 +3,13 @@ spring:
         stream:
             kafka:
                 binder:
+                    configuration:
+                        sasl:
+                            mechanism: PLAIN
+                            jaas:
+                                config: 'org.apache.kafka.common.security.plain.PlainLoginModule required username=test password=test123;'
+                        security:
+                            protocol: SASL_PLAINTEXT
                     brokers: 'kafka.pks.kirklab.io'
             bindings:
                 logEvents:
